@@ -1,0 +1,62 @@
+<!document html>
+<html>
+<head>
+<style type=""text/css">
+
+body {position:relative;
+  background-color:black;
+  border:3px solid red;
+	padding-left:35%;
+	padding-top:10%;
+	border-radius:100px;
+	
+  }
+body:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('colours.webp');
+	background-size:100% 100%;
+   opacity: .69;
+   color:white;
+ 
+   
+}
+.conten {
+    position: relative ;
+    z-index: 2;
+}​
+
+</style>
+</head>
+<body> <div class="conten">
+<h1>sign up here!</h1>
+<form> 
+First name:<input type="username"><br />
+<br />
+Last name :<input type="username"><br /><br />
+date of birth:<input  type="username"><br /><br /><br />
+ male:<input type="radio" name="sex" />
+female:<input type="radio" name="sex" /><br />
+Would you like to jon us?
+<select name="activities">
+ 
+ <option value="yes">yes,i did like</option>
+ <option value="no">no, i wont</option>
+ <option value="later">Remind me later</option>
+</select><br /><br /><br />
+Laguages known to you:<br />
+HTML&CSS<input type="checkbox" name="languages" value="HTML&CSS"/>
+JAVA<input type="checkbox" name="languages" value="JAVA"/>
+PHP<input type="checkbox" name="languages" value="PHP"/>
+PYHTON<input type="checkbox" name="languages" value="PYHTON"/>
+JQUERY<input type="checkbox" name="languages" value="JQUERY"/>
+
+</form>
+</div>
+</body>
+</html>
